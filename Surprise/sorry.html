@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry, My Love! 💔</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@400;700&display=swap');
+
+        body {
+            background-color: #ffccd5;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .hidden {
+            display: none;
+        }
+        .message {
+            font-size: 3.5rem;
+            background: linear-gradient(to right, #ff4e50, #fc913a);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: 700;
+            text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.3);
+        }
+        .sorry-text {
+            font-size: 1.5rem;
+            color: darkblue;
+            font-weight: 600;
+            font-family: 'Merriweather', serif;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .surprise-text {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: darkred;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .btn {
+            background-color: #ff4e50;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            transition: 0.3s;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+        }
+        .btn:hover {
+            background-color: #fc913a;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .images img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="message">I'm Sorry, Adiii... 💔</h1>
+
+    <p class="sorry-text mt-6">
+        Sorry, Adi, sa mga nakaraang araw na nag-aaway tayo at nagtatalo.  
+        Kahit ano pa mang mangyari, mahal na mahal pa rin kita.  
+        Alam kong naiinis ka lang sa akin kasi hindi kita agad sinusuyo,  
+        at inuuna ko ang pride pareho tayong dalawa. Mali 'yon, at hindi dapat ganon.  
+        <br><br>
+        Sana ma-appreciate mo itong ginawa ko para sa’yo.  
+        Ito ang surprise ko para sa monthsary natin at sa Valentine's Day.  
+        <br><br>
+        Hindi kita mabibigyan ng chocolates at flowers ngayon kasi wala pa akong naipon.  
+        Pero babawi ako pagkatapos ng klase ko.  
+        Sa ngayon, ito muna ang kaya kong ibigay isang sulat at virtual chocolates at flowers.  
+        Sana magustuhan mo.  
+        <br><br>
+        Sorry ulit, Adi. Sana bati mo na ako. Mahal na mahal kita. Pasensya na I Loveee Youuu.  
+    </p>
+
+    <p class="text-xl mt-6">Can I make it up to you? Click below for a surprise! 💖</p>
+
+    <button id="surpriseBtn" class="btn">
+        Click for a Surprise!
+    </button>
+
+    <div id="surpriseContent" class="hidden">
+        <h2 class="surprise-text mt-6">I Love You So Much, Adi! 💖</h2>
+
+        <div class="images">
+            <img src="flowers x chocolates/0720-Brooklyn-Thumbnail-01_600x.webp" alt="Virtual Flowers">
+            <img src="flowers x chocolates/ferrero-rocher-300g-24-pieces.jpg" alt="Virtual Chocolates">
+        </div>
+
+        <p class="text-lg text-darkblue mt-6">
+            You mean everything to me!  
+            Thank you for being my love, my happiness, and my forever. 💕
+        </p>
+    </div>
+
+    <script>
+        document.getElementById("surpriseBtn").addEventListener("click", function() {
+            document.getElementById("surpriseContent").classList.remove("hidden");
+            this.style.display = "none"; // Hide button after clicking
+        });
+    </script>
+
+</body>
+</html>

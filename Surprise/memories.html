@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Beautiful Memories</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fce4ec; /* Soft pink */
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            color: #4a2c2a; /* Rich dark brown */
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #b76e79; /* Elegant rose gold */
+        }
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            justify-content: center;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .image-container img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+        }
+        .category {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-top: 20px;
+            color: #d81b60; /* Deep pink */
+        }
+        .next-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: linear-gradient(to right, #d81b60, #b76e79);
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s ease;
+        }
+        .next-btn:hover {
+            background: linear-gradient(to right, #b76e79, #d81b60);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Beautiful Memories</h1>
+
+    <p class="category">MOA Date 💕</p>
+    <div class="image-container">
+        <img src="Moa date/3a78b864-984b-4267-af98-96d22f664b4e.jpg" alt="MOA Date 1">
+        <img src="Moa date/70dda840-e641-47dd-b43a-c7ad84ddb611.jpg" alt="MOA Date 2">
+        <img src="Moa date/353d6e58-447b-40b7-84c0-ea09e566eac7.jpg" alt="MOA Date 3">
+        <img src="Moa date/1789655c-66dc-44ef-920c-cad041d7844e.jpg" alt="MOA Date 4">
+        <img src="Moa date/ad9f2573-e56a-45f4-a36b-055fcded37cd.jpg" alt="MOA Date 5">
+        <img src="Moa date/b5aced3d-a9fd-4530-8385-8001e1ee847d.jpg" alt="MOA Date 6">
+        
+    </div>
+
+    <p class="category">Bolinao Date 🌊</p>
+    <div class="image-container">
+        <img src="Bolinao date/13dec4b6-e817-4aa2-875a-738bdc5fc047.jpg" alt="Bolinao Date 1">
+        <img src="Bolinao date/699ba843-ec77-410e-9626-97aec452d9e6.jpg" alt="Bolinao Date 2">
+        <img src="Bolinao date/80769db3-546f-4c72-ad71-60f95f3206fa.jpg" alt="Bolinao Date 3">
+        <img src="Bolinao date/d05bef0f-441f-494c-8376-f3ec2782cd42.jpg" alt="Bolinao Date 4">
+        <img src="Bolinao date/f38b58bd-e180-4394-b885-cdc8e7f0ff08.jpg" alt="Bolinao Date 5">
+        <img src="Bolinao date/cfb55ba5-4b8f-4c98-a2fa-be7ac1f8b348.jpg" alt="Bolinao Date 6">
+        
+    </div>
+
+    
+    </div>
+
+    <a href="loveletter.html" class="next-btn">Next...💌</a>
+
+</body>
+</html>
